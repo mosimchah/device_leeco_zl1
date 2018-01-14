@@ -15,9 +15,6 @@ ro.nfc.port=I2C
 # Fingerprint
 persist.qfp=false
 
-# smartcard
-persist.nfc.smartcard.config=SIM1,SIM2,eSE1
-
 # Hardware Info
 ro.device.chipset=Qualcomm MSM8996 Snapdragon 821
 ro.device.cpu=Quad-core (2x2.35 GHz Kryo & 2x2.19 GHz Kryo)
@@ -26,8 +23,8 @@ ro.device.rear_cam=16 MP
 ro.device.front_cam=8 MP
 ro.device.screen_res=1080 x 1920
 
-#mtp
-persist.sys.usb.config=mtp
+# smartcard
+persist.nfc.smartcard.config=SIM1,SIM2,eSE1
 
 # By PurePerformances X 
 

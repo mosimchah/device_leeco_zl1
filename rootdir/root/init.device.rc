@@ -24,6 +24,7 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
+
 on init
     #No overclock
     write /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 2342400
@@ -54,7 +55,7 @@ on boot
     chown nfc nfc /dev/pn544
     chmod 0666 /dev/p61
     chown spi spi /dev/p61
-    
+
     #No overclock on boot
     write /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 2342400
     write /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 2342400
